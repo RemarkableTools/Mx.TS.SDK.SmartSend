@@ -1,0 +1,24 @@
+{
+  "name": "@remarkabletools/mx-smartsend",
+  "version": "1.0.0",
+  "description": "⚡ MultiversX SmartSend TypeScript SDK: Library for interacting with Smart Send contracts on MultiversX blockchain",
+  "main": "out/index.js",
+  "scripts": {
+    "compile": "tsc -p tsconfig.json",
+    "lint": "ts-standard --fix"
+  },
+  "keywords": [],
+  "author": "Remarkable Tools",
+  "license": "MIT",
+  "ts-standard": {
+    "project": "./tsconfig.json"
+  },
+  "dependencies": {
+    "@multiversx/sdk-core": "^12.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "ts-standard": "^12.0.2",
+    "typescript": "^5.0.4"
+  }
+}
